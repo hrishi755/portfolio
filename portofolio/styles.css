@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#home {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+section#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+section#skills ul,
+section#accomplishments ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#skills ul li,
+section#accomplishments ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+
+section#projects .project {
+    margin-bottom: 20px;
+}
+
+section#projects .view-project {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section#projects .view-project:hover {
+    background-color: #575757;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
